@@ -1,13 +1,15 @@
 # 心率监控器 · 隐私政策
 
-面向 iOS App Store 审核与用户查阅的公开隐私政策页面（中英双语）。
+面向 iOS App Store 审核与用户查阅的公开隐私政策（中英双语）。
 
-## 在线地址
+## Live URL（填入 App Store Connect）
 
-启用 GitHub Pages 后访问：
+- Privacy Policy: https://lcd10415.github.io/heartrate-monitor-privacy/
 
-`https://<你的用户名>.github.io/heartrate-monitor-privacy/`
+## Repository
+
+https://github.com/lcd10415/heartrate-monitor-privacy
 
 ## 本地预览
 
-用浏览器直接打开 `index.html` 即可。
+用浏览器打开 `index.html` 即可。
