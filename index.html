@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>隐私政策 · Privacy Policy — 心率监控器</title>
+  <meta name="description" content="心率监控器（Heart Rate Monitor）iOS 应用隐私政策 / Privacy Policy" />
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1c1c1e;
+      --muted: #6b7280;
+      --accent: #6b7fd7;
+      --line: #e8eaf0;
+      --max: 720px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+        "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    header {
+      background: linear-gradient(135deg, #6b7fd7 0%, #8fa0e8 100%);
+      color: #fff;
+      padding: 48px 20px 40px;
+    }
+    header .wrap { max-width: var(--max); margin: 0 auto; }
+    header h1 { margin: 0 0 8px; font-size: 1.75rem; font-weight: 700; }
+    header p { margin: 0; opacity: 0.9; font-size: 0.95rem; }
+    nav.lang {
+      max-width: var(--max);
+      margin: 16px auto 0;
+      padding: 0 20px;
+      display: flex;
+      gap: 8px;
+    }
+    nav.lang a {
+      text-decoration: none;
+      color: var(--accent);
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 14px;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+    nav.lang a:hover { border-color: var(--accent); }
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 8px 20px 64px;
+    }
+    section.card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 22px 22px 18px;
+      margin-top: 16px;
+      border: 1px solid var(--line);
+      box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.15rem;
+      color: var(--accent);
+    }
+    h3 { margin: 18px 0 8px; font-size: 1rem; }
+    p, li { color: var(--text); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    ul { padding-left: 1.2em; margin: 8px 0; }
+    li { margin: 4px 0; }
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 36px 0 8px;
+    }
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 20px 48px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>心率监控器 · 隐私政策</h1>
+      <p>Heart Rate Monitor — Privacy Policy</p>
+      <p style="margin-top:10px;opacity:.85;font-size:.85rem;">生效日期 / Effective date：2026-10-29</p>
+    </div>
+  </header>
+
+  <nav class="lang" aria-label="Language">
+    <a href="#zh">中文</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <main>
+    <!-- ========== 中文 ========== -->
+    <section id="zh" class="card">
+      <h2>一、概述</h2>
+      <p>
+        「心率监控器」（以下简称「本应用」）重视您的隐私。本政策说明本应用在 iOS 设备上可能访问的数据类型、用途，以及您如何控制这些权限。
+      </p>
+      <p>
+        <strong>本应用不以建立用户账号为前提，不向我们运营的服务器上传您的心率或身份信息，也不内置广告或第三方分析 SDK。</strong>
+        数据默认仅保存在您的设备本地。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>二、我们处理的数据</h2>
+
+      <h3>1. 心率数据</h3>
+      <ul>
+        <li>用途：实时显示、图表统计、历史记录、可选预警与语音播报。</li>
+        <li>来源：经您授权后，从「健康」App / Apple Watch（HealthKit）读取；或通过蓝牙连接标准心率设备读取。</li>
+        <li>存储：保存在本机（含小组件所用的 App Group 本地共享存储）。</li>
+        <li>上传：默认不会上传到开发者服务器。</li>
+      </ul>
+
+      <h3>2. 健康 App（HealthKit）</h3>
+      <ul>
+        <li>仅在您授权后读取心率相关样本，用于监测与展示。</li>
+        <li>不会将 HealthKit 数据用于广告、营销或出售给第三方。</li>
+      </ul>
+
+      <h3>3. 蓝牙设备信息</h3>
+      <ul>
+        <li>用于扫描、连接符合 Heart Rate 服务的蓝牙设备。</li>
+        <li>可能读取设备名称与标识符，仅用于识别设备、收藏与自动重连。</li>
+      </ul>
+
+      <h3>4. 位置信息（可选）</h3>
+      <ul>
+        <li>仅在您开启「GPS 时速」等功能时使用，用于估算移动速度展示。</li>
+        <li>不会用于后台追踪您的行踪轨迹上传。</li>
+      </ul>
+
+      <h3>5. 本地网络与可选网络功能</h3>
+      <ul>
+        <li><strong>检查更新</strong>：可能访问 Apple App Store 相关接口查询版本，不上传个人健康数据。</li>
+        <li><strong>局域网 HTTP / WebSocket</strong>（需您手动开启）：在同一局域网内共享当前心率，便于 OBS 等场景。</li>
+        <li><strong>Webhook</strong>（需您自行配置）：按您填写的 URL 推送心率等字段；目标服务器由您选择并自行负责。</li>
+        <li>局域网发现（Bonjour）仅用于您启用的本地共享功能。</li>
+      </ul>
+
+      <h3>6. 设置与本地存储</h3>
+      <ul>
+        <li>主题、语言、预警阈值、收藏设备、历史会话等保存在设备本地。</li>
+        <li>卸载本应用后，上述本地数据将被系统删除（以 iOS 行为为准）。</li>
+      </ul>
+
+      <h3>7. 桌面 / 锁屏小组件</h3>
+      <ul>
+        <li>通过 App Group 在本机读取应用写入的心率快照，用于桌面或锁屏展示。</li>
+        <li>小组件扩展不会单独向互联网发送您的健康数据。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>三、我们不会做什么</h2>
+      <ul>
+        <li>不收集可用于识别您个人身份的注册资料（本应用无账号体系）。</li>
+        <li>不出售、不出租您的心率或健康数据。</li>
+        <li>不将 HealthKit 数据用于广告或数据经纪。</li>
+        <li>不内置第三方广告或行为分析追踪 SDK。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>四、数据共享</h2>
+      <p>除下列情形外，我们不会主动将您的数据提供给第三方：</p>
+      <ul>
+        <li>您主动启用局域网共享或 Webhook，数据将发往您指定的设备或地址；</li>
+        <li>法律法规要求或有权机关依法提出的请求；</li>
+        <li>为保护用户或公众安全所必需的情形。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>五、权限控制与您的权利</h2>
+      <ul>
+        <li>您可在 iOS「设置」中随时关闭健康、蓝牙、定位、本地网络等权限。</li>
+        <li>您可在应用内清空历史、收藏，或关闭记录 / 预警 / 网络共享等功能。</li>
+        <li>您可卸载应用以删除本地保存的数据。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>六、儿童隐私</h2>
+      <p>
+        本应用不面向 13 岁以下儿童提供服务，也不会在明知的情况下收集儿童的个人信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>七、政策更新</h2>
+      <p>
+        我们可能适时更新本政策。更新后将在本页面公布，并调整「生效日期」。重大变更时，建议您重新阅读。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>八、联系我们</h2>
+      <p>
+        如对本政策或数据处理有疑问，可通过 GitHub 与开发者联系：
+        <a href="https://github.com/XiaochangXu/HeartRateMonitor-composeui" rel="noopener">XiaochangXu / HeartRateMonitor</a>
+      </p>
+      <p class="muted">应用名称：心率监控器（Heart Rate Monitor） · 平台：iOS</p>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ========== English ========== -->
+    <section id="en" class="card">
+      <h2>1. Overview</h2>
+      <p>
+        Heart Rate Monitor (“the App”) respects your privacy. This Policy explains what data the iOS App may access, why, and how you can control it.
+      </p>
+      <p>
+        <strong>The App does not require an account, does not upload your heart-rate or identity data to servers operated by us, and does not include ads or third-party analytics SDKs.</strong>
+        Data is stored on your device by default.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>2. Data We Process</h2>
+
+      <h3>2.1 Heart Rate Data</h3>
+      <ul>
+        <li>Purpose: live display, charts, history, optional alarms and voice announcements.</li>
+        <li>Sources: with your permission, Apple Health / Apple Watch (HealthKit); or Bluetooth heart-rate devices.</li>
+        <li>Storage: on-device (including App Group storage for widgets).</li>
+        <li>Upload: not uploaded to developer-operated servers by default.</li>
+      </ul>
+
+      <h3>2.2 Apple Health (HealthKit)</h3>
+      <ul>
+        <li>Heart-rate samples are read only after you grant permission, for monitoring and display.</li>
+        <li>HealthKit data is never used for advertising, marketing, or sale to third parties.</li>
+      </ul>
+
+      <h3>2.3 Bluetooth Device Information</h3>
+      <ul>
+        <li>Used to scan and connect to devices exposing the standard Heart Rate service.</li>
+        <li>Device name/identifiers may be stored only for recognition, favorites, and reconnection.</li>
+      </ul>
+
+      <h3>2.4 Location (Optional)</h3>
+      <ul>
+        <li>Used only if you enable features such as GPS speed display.</li>
+        <li>Not used to upload continuous location tracking to our servers.</li>
+      </ul>
+
+      <h3>2.5 Local Network &amp; Optional Networking</h3>
+      <ul>
+        <li><strong>Update check:</strong> may query Apple App Store lookup APIs for version info; no health data is sent.</li>
+        <li><strong>LAN HTTP / WebSocket</strong> (opt-in): share current heart rate on your local network (e.g. OBS).</li>
+        <li><strong>Webhooks</strong> (user-configured): POST fields you define to URLs you provide; you control the destination.</li>
+        <li>Bonjour discovery is used only for features you enable.</li>
+      </ul>
+
+      <h3>2.6 Settings &amp; Local Storage</h3>
+      <ul>
+        <li>Theme, language, alarm thresholds, favorites, and history stay on device.</li>
+        <li>Uninstalling the App removes local data (subject to iOS behavior).</li>
+      </ul>
+
+      <h3>2.7 Home Screen / Lock Screen Widgets</h3>
+      <ul>
+        <li>Widgets read an on-device snapshot via App Group for glanceable BPM.</li>
+        <li>The widget extension does not independently send your health data to the internet.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>3. What We Do Not Do</h2>
+      <ul>
+        <li>No account registration or personal profile collection.</li>
+        <li>No sale or rental of your heart-rate or health data.</li>
+        <li>No use of HealthKit data for advertising or data brokerage.</li>
+        <li>No built-in third-party ads or behavioral analytics SDKs.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Sharing</h2>
+      <p>We do not proactively share your data with third parties except when:</p>
+      <ul>
+        <li>You enable LAN sharing or Webhooks and data is sent to destinations you choose;</li>
+        <li>Required by law or lawful authority requests;</li>
+        <li>Necessary to protect users or public safety.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>5. Your Controls</h2>
+      <ul>
+        <li>Revoke Health, Bluetooth, Location, or Local Network access in iOS Settings at any time.</li>
+        <li>Clear history/favorites or disable recording, alarms, and network features in the App.</li>
+        <li>Uninstall the App to delete locally stored data.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>6. Children’s Privacy</h2>
+      <p>
+        The App is not directed at children under 13, and we do not knowingly collect personal information from children.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>7. Changes</h2>
+      <p>
+        We may update this Policy from time to time. The effective date above will be revised accordingly. Please review this page after significant changes.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>8. Contact</h2>
+      <p>
+        Questions about this Policy or data practices:
+        <a href="https://github.com/XiaochangXu/HeartRateMonitor-composeui" rel="noopener">XiaochangXu / HeartRateMonitor on GitHub</a>
+      </p>
+      <p class="muted">App: Heart Rate Monitor (心率监控器) · Platform: iOS</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Heart Rate Monitor. This page is provided for App Store / user transparency.</p>
+  </footer>
+</body>
+</html>
